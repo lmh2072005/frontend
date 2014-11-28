@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>child cookie</title>
+</head>
+<body>
+<script src="../../framework/jquery-1.9.1.js"></script>
+<script src="jquery.cookie.js"></script>
+<script>
+    $(function(){
+        $.cookie('testdd', '{"name":"dd","age":18,"addr":"sz"}', {expires:3600, path:'/'});
+        console.log(getChildCookie('testdd','addr'));
+
+        setChildCookie('testdd','addr','深圳');
+        console.log(getChildCookie('testdd','addr'));
+        console.log(getChildCookie('testdd','name'));
+        console.log(getChildCookie('testdd','age'));
+
+        function getChildCookie(name, childName){
+            var cookie = $.cookie(name),
+                childVal = '',
+                jsonCookie;
+            if(cookie && ~cookie.indexOf('{')){
+                jsonCookie = $.parseJSON(cookie);
+                childVal = decodeURIComponent(jsonCookie[childName]);
+            }
+            return childVal;
+        }
+        function setChildCookie(name, childName, childVal,opts){
+            var cookie = $.cookie(name),
+                childItem = '',
+                jsonCookie,
+                defaultOpts = {
+                    expires:3600,
+                    path:'/'
+                };
+            var cookieStr = '{';
+            opts = $.extend(defaultOpts, opts);
+            if(cookie && ~cookie.indexOf('{')){
+                jsonCookie = $.parseJSON(cookie);
+                jsonCookie[childName] = encodeURIComponent(childVal);
+                for(var i in jsonCookie){
+                    if(jsonCookie.hasOwnProperty(i)){
+                        cookieStr += '"'+i+'":"'+jsonCookie[i]+'",';
+                    }
+                }
+                cookieStr = cookieStr.replace(/,$/,'');
+                cookieStr += '}';
+                $.cookie(name, cookieStr, opts);
+            }else if(!cookie){
+                childItem = '{"'+childName+'":"'+childVal+'"}';
+                $.cookie(name, childItem, opts);
+            }
+        }
+    });
+</script>
+</body>
+</html>
