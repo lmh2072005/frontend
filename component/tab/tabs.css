@@ -1,0 +1,106 @@
+@charset "utf-8";
+
+/*tab*/
+.c{
+    *zoom:1;
+}
+.c:after{
+    clear:both;
+    display:block;
+    visibility:hidden;
+    height:0;
+    content:'.';
+}
+.tabContent{
+    display: none;
+}
+.tabContent.active{
+    display: block;
+}
+.whiteTab{
+    border-bottom: 1px solid #ccc;
+    padding:0 10px;
+}
+.whiteTab li{
+    float: left;
+    height:30px;
+    line-height: 30px;
+    min-width: 70px;
+    border: 1px solid #ccc;
+    margin-right: 4px;
+    margin-bottom: -1px;
+    text-align: center;
+}
+.whiteTab li a{
+    display: block;
+    height: 100%;
+    width: 100%;
+    color:#666;
+    font-weight: bold;
+}
+.whiteTab li.active{
+    border-bottom: 1px solid #fff;
+}
+.whiteTab li.active a{
+    color:#00c7e1;
+}
+.slideTabToolBox{
+    background:#dbdee5;
+    height: 36px;
+    line-height: 36px;
+}
+.slideTabToolBox .leftTabArrow, .slideTabToolBox .rightTabArrow{
+    display: inline-block;
+    width:24px;
+    height: 24px;
+    line-height: 24px;
+    background: #b0b1b6;
+    color: #fff;
+    text-indent:5px;
+    font-size: 12px;
+}
+.leftTabArrow{
+    float: left;
+    margin: 6px 0 0 10px;
+}
+.slideTabToolBox .disableArrow{
+    cursor: default;
+    opacity: .4;
+    filter:alpha(opacity=40);
+}
+.slideTabToolBox .rightTabArrow{
+    text-indent:8px;
+    float: left;
+    margin-top: 6px;
+}
+.slideTab{
+    position: absolute;
+    right: 0;
+    margin-top: 4px;
+}
+.slideTab li{
+    float: left;
+    width:115px;
+    height: 32px;
+    line-height: 32px;
+    text-align: center;
+}
+.slideTab li a{
+    display: inline-block;
+    height: 100%;
+    width: 100%;
+    text-align: center;
+    color:#878789;
+    font-weight: bold;
+}
+.slideTab li.active a{
+    background: #fff;
+}
+.slideTabWrap{
+    width:805px;
+    height: 36px;
+    margin: 0 8px;
+    overflow: hidden;
+    position: relative;
+    float: left;
+}

@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>tab</title>
+    <meta charset="utf-8" />
+    <link rel="stylesheet" href="tabs.css" />
+    <style>
+        html,body{
+            font-size:12px;
+            color:#0f0f0f;
+            font-family: "微软雅黑","宋体",Helvetica,Verdana,Arial,Tahoma;
+        }
+        html,body,h1,h2,h3,h4,h5,h6,ul,ol,li,dl,dt,dd,input,p{
+            margin:0;
+            padding:0;
+        }
+        ul, ol {
+            list-style:none;
+        }
+        a{
+            text-decoration:none;
+            color:#21211f;
+        }
+        a:hover{
+            text-decoration:none;
+        }
+        .box{
+            margin:10px 20px;
+        }
+
+    </style>
+</head>
+<body>
+<div class="box">
+    <ul class="tabBox whiteTab c">
+        <li class="active"><a href="javascript:;">aaa</a></li>
+        <li><a href="javascript:;">bbb</a></li>
+        <li><a href="javascript:;">ccc</a></li>
+        <li><a href="javascript:;">ddd</a></li>
+        <li><a href="javascript:;">eee</a></li>
+    </ul>
+    <div class="tabContent active">
+        1
+    </div>
+    <div class="tabContent">
+        2
+    </div>
+    <div class="tabContent">
+        3
+    </div>
+    <div class="tabContent">
+        4
+    </div>
+    <div class="tabContent">
+        5
+    </div>
+</div>
+<div class="box">
+    <div class="slideTabBox">
+        <div class="slideTabToolBox c">
+            <a href="javascript:;" class="leftTabArrow">◀</a>
+            <div class="slideTabWrap">
+                <ul class="tabBox slideTab c">
+                    <li><a href="javascript:;">9-21 周日</a></li>
+                    <li><a href="javascript:;">9-22 周一</a></li>
+                    <li><a href="javascript:;">9-23 周二</a></li>
+                    <li><a href="javascript:;">9-24 周三</a></li>
+                    <li><a href="javascript:;">9-25 周四</a></li>
+                    <li><a href="javascript:;">9-26 周五</a></li>
+                    <li><a href="javascript:;">9-27 周六</a></li>
+                    <li class="active"><a href="javascript:;">9-28 周日</a></li>
+                </ul>
+            </div>
+            <a href="javascript:;" class="rightTabArrow disableArrow">▶</a>
+        </div>
+        <div class="slideTabContentBox">
+            <div class="tabContent">1</div>
+            <div class="tabContent">2</div>
+            <div class="tabContent">3</div>
+            <div class="tabContent">4</div>
+            <div class="tabContent">5</div>
+            <div class="tabContent">6</div>
+            <div class="tabContent">7</div>
+            <div class="tabContent active">8</div>
+        </div>
+    </div>
+</div>
+<script src="../../framework/jquery-1.9.1.js"></script>
+<script src="tabs.js"></script>
+<script>
+    $(function(){
+        //tab
+        $('.whiteTab').Tab();
+        //slideTab
+        $('.slideTab').Tab({
+            type : 'slideTab',
+            change : function(content, tab, index){
+
+            }
+        });
+
+    });
+
+</script>
+</body>
+</html>
