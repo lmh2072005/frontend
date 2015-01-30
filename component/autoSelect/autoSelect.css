@@ -1,0 +1,176 @@
+.uiComponentClear{
+    *zoom:1;
+}
+.uiComponentClear:after{
+    clear: both;
+    display: block;
+    height: 0;
+    visibility: hidden;
+    content: '.';
+}
+.uiComponentFl {
+    float:left;
+}
+.uiComponentDn{
+    display: none;
+}
+.uiComponentMt4 {
+    margin-top:4px;
+}
+.uiComponentMt8 {
+    margin-top:8px;
+}
+.uiComponentRed {
+    color:#ff3300;
+}
+.uiComponentTac {
+    text-align:center;
+}
+.uiComponentTar {
+    text-align:right;
+}
+.uiComponentPullLeft{
+    float: left;
+}
+.uiComponentPullRight{
+    float: right;
+}
+.uiComponentAutoSelect{
+    position: relative;
+    font-family: Microsoft YaHei,Arial,Tahoma,Geneva,sans-serif;
+}
+.uiComponentAutoSelectMultipleBox{
+    border: 1px solid #ccc;
+    cursor: text;
+}
+.uiComponentAutoSelectMultipleBox ul{
+    margin: 0 0 -2px 0;
+    padding: 0;
+    list-style: none;
+    position: relative;
+}
+.uiComponentAutoSelectMultipleBox ul li{
+    float: left;
+    height: 18px;
+    line-height: 18px;
+    margin-bottom: 2px;
+    margin-right: 3px;
+    width:auto;
+}
+.uiComponentAutoSelectMultipleBox li[data-id]{
+    color:#fff;
+    background: #3498db;
+    border-radius: 11px;
+    padding: 1px 6px 1px 9px;
+    line-height:15px;
+    margin-right: 3px;
+}
+.uiComponentAutoSelectMultipleBox ul li i{
+    display: inline-block;
+    height:16px;
+    line-height: 16px;
+    color: #4d4d4d;
+    margin-left: 3px;
+    font-style: normal;
+    cursor: pointer;
+    vertical-align:top;
+}
+.uiComponentAutoSelectMultipleBox input{
+    border: none;
+    padding: 0;
+}
+.uiComponentAutoSelectSearchBox{
+    margin-right: 0 !important;
+}
+.uiComponentAutoSelectSearchBox input{
+    height: 20px;
+    border-color: transparent;
+    box-shadow: none;
+    border:none !important;
+    outline:none;
+}
+.uiComponentAutoSelectSearchBox input:focus{
+    border-color: transparent;
+}
+.uiComponentAutoSelectMenu{
+    padding: 5px 0;
+    border-bottom-left-radius:4px;
+    border-bottom-right-radius: 4px;
+    position: absolute;
+    z-index: 999;
+    border: 1px solid #ccc;
+    background: #fff;
+    color:#4d4d4d;
+    display: none;
+    font: 12px/1.5em Microsoft YaHei,Arial,Tahoma,Geneva,sans-serif;
+}
+.uiComponentAutoSelectMenu ul{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+.uiComponentAutoSelectMenu ul li{
+    cursor: pointer;
+    margin: 0 9px;
+    padding: 0 7px;
+    height: 32px;
+    line-height: 32px;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+.uiComponentAutoSelectMenu ul li.active{
+    background: #3498db;
+    color:#fff;
+}
+.uiComponentAutoSelectMultipleBox li[data-id] span{
+    max-width:84px;
+    overflow:hidden;
+    text-overflow:ellipsis;
+    white-space:nowrap;
+    display: inline-block;
+}
+.uiComponentAutoSelectMultipleBox li[data-id] span{
+    max-width: 68px;
+    line-height: 16px;
+}
+
+.uiComponentAutoSelectMultiple ul li a{
+    padding: 3px 0;
+}
+.uiComponentAutoSelectInput, .uiComponentAutoSelectMultipleBox{
+    background-color: #ffffff;
+    background-image: none;
+    border: 1px solid #cccccc;
+    border-radius: 4px;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+    color: #555555;
+    display: inline-block;
+    font-size: 14px;
+    padding: 6px 19px 6px 12px;
+    transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+    vertical-align: middle;
+    position: relative;
+}
+.uiComponentAutoSelectInput:focus {
+    border-color: #66afe9;
+    box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+    outline: 0 none;
+}
+.uiComponentAutoSelectMultipleBox .uiComponentAutoSelectInput:focus{
+    border-color: none;
+    box-shadow:none;
+}
+.uiComponentAutoSelectInput::-moz-placeholder,.uiComponentAutoSelectInput::-webkit-placeholder {
+    color: #999999;
+    opacity: 1;
+}
+.uiComponentAutoSelectInput[disabled]{
+    background-color: #eeeeee;
+    cursor: not-allowed;
+}
+.uiComponentSelectMsgBox{
+    color: #ff3300;
+    font-size: 12px;
+    display: none;
+}

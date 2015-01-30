@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>autoSelect</title>
+    <link href="autoSelect.css" type="text/css" rel="stylesheet" />
+    <style>
+        html,body{
+            font: 14px/1.5em Microsoft YaHei,Arial,Tahoma,Geneva,sans-serif;
+        }
+        .wrap{
+            margin:50px;
+        }
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <div>多选：<input type="text" id="autoSelect" /></div>
+    <br>
+    <div>多选有必选项<input type="text" id="autoSelect2" /></div>
+    <br>
+    <div>单选<input type="text" id="autoSelect3" /></div>
+</div>
+
+
+<script src="../../framework/jquery-1.9.1.js"></script>
+<script src="jquery.autoSelect.js"></script>
+<script>
+    var data = [
+        { id: 1, name: 'aaa',required:true},
+        { id: 2, name: 'bbb' },
+        { id: 3, name: 'ccc' },
+        { id: 4, name: 'abc' },
+        { id: 5, name: 'abb' },
+        { id: 6, name: 'aac' }
+    ];
+    var data1 = [
+        { id: 1, name: 'aaa' },
+        { id: 2, name: 'bbb' },
+        { id: 3, name: 'ccc' },
+        { id: 4, name: 'abc' },
+        { id: 5, name: 'abb' },
+        { id: 6, name: 'aac' }
+    ];
+    $('#autoSelect').AutoSelect({
+        source: data1,
+        hiddenName:'ids',
+        filterField: 'name',
+        focusShowMenu: true,
+        requiredField: 'required',
+        menuItemTpl: '{{name}}'
+    });
+    $('#autoSelect2').AutoSelect({
+        source: data,
+        hiddenName:'ids',
+        focusShowMenu: true,
+        filterField: 'name',
+        requiredField: 'required',
+        menuItemTpl: '{{name}}',
+        afterInit:function(){
+            this.setValue(1);
+        }
+    });
+    $('#autoSelect3').AutoSelect({
+        source: data,
+        hiddenName:'ids',
+        focusShowMenu: true,
+        isMultiple:false,
+        filterField: 'name',
+        requiredField: 'required',
+        menuItemTpl: '{{name}}'
+    });
+</script>
+</body>
+</html>

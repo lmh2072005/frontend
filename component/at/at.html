@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>at component</title>
+    <link href="atSelect.css" type="text/css" rel="stylesheet" />
+    <style>
+        .wrap{
+            margin:50px;
+        }
+        .atInput{
+            width:500px;
+            height: 130px;
+        }
+    </style>
+</head>
+<body>
+<div class="wrap">
+    <textarea class="atInput" id="atInput" placeholder="输入@试一下"></textarea>
+</div>
+<script src="../../framework/jquery-1.9.1.js"></script>
+<script src="jquery.atSelect.js"></script>
+<script>
+    var data = [{name:'测试1',id:1},{name:'测试测试',id:2},{name:'测试3',id:3}];
+    $('#atInput').AtSelect({
+        hiddenName: 'at',
+        valueDefault: 'name',
+        source:data,
+        key: 'id',
+        filterField: 'name',
+        menuItemTpl: '{{name}}'
+    });
+</script>
+</body>
+</html>
