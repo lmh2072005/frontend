@@ -1,5 +1,26 @@
 /**
  * Created by aaron.liu on 14-12-08.
+ * 自动选择，支持单选和多选，支持只读必须，自定义显示字段和过滤字段等等
+ * $.fn.AutoSelect.defaults = {
+        readOnly: false, //是否可以输入
+        searchItems: 10, //搜索智能提示的数量限制
+        maxItems: 1000,  // 最多能选择的数量
+        isMultiple: true, //是否多选
+        hiddenName: 'test', //存储key的隐藏域名字
+        source: null, //静态数据源
+        remote: '', //远程数据源地址
+        key: 'id', //数据源key字段
+        valueDefault: 'name',//数据源默认名字字段
+        valueEn: '',//数据源英文名字段
+        requiredField: 'required', //必填字段名字（afterinit调用setValue设置默认值required不能删除）
+        filterField: 'name,email',//智能提示过滤的字段
+        autocompleteWidth: '', // 智能提示下拉框宽度
+        afterInit: null,  //初始化完成事件
+        change: null, //选择时触发change事件
+        msgTemplate: '最多选择{0}条数据', //错误提示信息模板
+        focusShowMenu: false, //focus时显示下拉列表
+        menuItemTpl: '{{name}}({{email}})' // 下拉menu模板
+    };
  */
 ; (function ($) {
     "use strict";
@@ -620,7 +641,6 @@
         msgTemplate: '最多选择{0}条数据', //错误提示信息模板
         focusShowMenu: false, //focus时显示下拉列表
         menuItemTpl: '{{name}}({{email}})' // 下拉menu模板
-
     };
     $.fn.AutoSelect.Constructor = AutoSelect;
     $(document).bind('click.autoSelect', function (e) {

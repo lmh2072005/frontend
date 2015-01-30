@@ -2,6 +2,25 @@
  * Created by aaron.liu on 15-01-09.
  * 其中光标位置和Mirror参考http://ichord.github.com/At.js做了改动，参考的版本在textarea下拉框定位有bug
  * 在这里已解决bug，各种配置非常灵活
+ *  $.fn.AtSelect.defaults = {
+         at: '@', //配置at匹配字符
+         atTriggerReg: /^[^\w]?$/, //配置at前面的字符触发at正则
+         insertTpl: '@{{name}} ', //at插入值模板
+         menuItemTpl: '{{name}}({{department}})', //menu 显示项内容模板
+         transferTpl: '<a:{{name}}>', //提交时转换template
+         maxItems: 10, //搜索智能提示的数量限制
+         hiddenName: 'ids', //存储key的隐藏域名字
+         source: null, //静态数据源
+         remote: '/xxx/xxx.php', //远程数据源地址
+         key: 'id', //数据源key字段
+         valueDefault: 'name',//数据源默认名字字段
+         valueEn: '',//数据源英文名字段
+         filterField: 'name',//输入时过滤的字段
+         transferValueField: 'name',//将输入at的值转为需要值的字段用来存储
+         autocompleteWidth: 'auto', // 智能提示下拉框宽度
+         afterInit: null, //初始化完成事件
+         change: null //选择时触发change事件
+    };
  */
 ; (function (factory) {
     if (typeof define === 'function' && define.amd) {
