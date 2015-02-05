@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>text limit</title>
+    <style>
+        html,body{
+            margin:30px;
+        }
+        .textarea{
+            border: 1px solid #cccccc;
+            border-radius: 4px;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset;
+            color: #555555;
+            padding: 6px 19px 6px 12px;
+            transition: border-color 0.15s ease-in-out 0s, box-shadow 0.15s ease-in-out 0s;
+            vertical-align: middle;
+            resize:none;
+            margin: 0;
+            font-family: "Arial","Microsoft YaHei";
+            font-size: 14px;
+            line-height: 18px;
+            overflow-x: hidden;
+            overflow-y: auto;
+            width:757px;
+            height: 88px;
+        }
+        .textarea:focus {
+            border-color: #66afe9;
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(102, 175, 233, 0.6);
+            outline: 0 none;
+        }
+        .textLimit {
+            color:#808080;
+        }
+        .textLimit .textNumber {
+            font-family: Constantia,Georgia;
+            font-size: 22px;
+            font-style: italic;
+            font-weight: 700;
+        }
+        .textLimit .overtopText {
+            color:#fa7d3c;
+        }
+    </style>
+</head>
+<body>
+
+<div class="textLimit"><span id="textLimitText">还可以输入</span><span class="textNumber" id="textLimitNumber">200</span>字</div>
+<textarea class="textarea" id="textarea"  placeholder="输入试试"></textarea>
+
+<script src="../../framework/jquery-1.9.1.js"></script>
+<script src="../../common/common.js"></script>
+<script>
+    $(function(){
+        var textLimitText = $('#textLimitText'),
+            textLimitNumber = $('#textLimitNumber');
+        $('#textarea').on('input propertychange change', function () {
+            var atInput = $(this),
+                    inputVal = atInput.val(),
+                    limit = 200,
+                    enableText = limit,
+                    defaultText = '还可以输入',
+                    overtopText = '已超出',
+                    LimitText = '';
+            count = getCharCount(inputVal);
+            if (count <= limit) {
+                LimitText = defaultText;
+                textLimitNumber.removeClass('overtopText');
+                atInput.data('overTop', false);
+            } else {
+                LimitText = overtopText;
+                textLimitNumber.addClass('overtopText');
+                atInput.data('overTop', true);
+            }
+            enableText = Math.abs(limit - count);
+            textLimitText.text(LimitText);
+            textLimitNumber.text(enableText);
+        }).trigger('change');
+    });
+</script>
+</body>
+</html>

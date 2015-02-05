@@ -205,9 +205,7 @@
         },
         blur: function (e) {
             var self = this;
-            if (self.$menu.is(':hidden')) {
-                self.filterSelectedItems();  //过滤选择的items
-            }
+            self.filterSelectedItems();  //过滤选择的items
         },
         keydown: function (e) {
             switch (e.which) {
@@ -399,6 +397,9 @@
             }
             self.setHiddenVal();
             self.hideMenu();
+            if ($.isFunction(options.change)) {
+                options.change.call(self, options);
+            }
         },
         filterSelectedItems: function () {
             var self = this,
@@ -495,15 +496,6 @@
                     self.$element.val(newVals);
                 }
             });
-
-        },
-        change: function (item) {
-            var self = this,
-                options = self.options;
-            if ($.isFunction(options.change)) {
-                options.change.call(self, options);
-            }
-            self.$element.trigger('change');
         },
         transferObjToStr: function (obj) {
             if (JSON && typeof JSON.stringify === 'function') {
@@ -635,8 +627,7 @@
     $(document).bind('click.autoSelect', function (e) {
         var target = $(e.target);
         if (!target.is('.uiComponentSelectMenu')
-            && !target.parents('.uiComponentSelectMenu').length
-            && !target.is('input[type="submit"]')) {
+            && !target.parents('.uiComponentSelectMenu').length) {
             $('.uiComponentSelectMenu').hide();
         }
     });
