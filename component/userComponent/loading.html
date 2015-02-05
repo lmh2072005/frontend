@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <title>loading</title>
+    <style>
+        html,body{
+            margin:30px;
+        }
+        /*loading*/
+        #ajaxLoadingBox {
+            position:absolute;
+            left:0;
+            top:0;
+            text-align:center;
+            width:100%;
+            z-index:9999;
+        }
+        #ajaxLoadingBox .overLay {
+            background-color:#d2d2d2;
+            opacity:0.5;
+            filter:alpha(opacity=50);
+            width:100%;
+            height:100%;
+        }
+        #ajaxLoadingBox .loadingIcon,
+        #ajaxLoadingBox .icon-spinner{
+            position:absolute;
+            top:50%;
+            left:50%;
+            font-size:28px;
+            display: inline-block;
+            width:32px;
+            height: 32px;
+            background: url(images/loading.gif) no-repeat 0 0px;
+            margin-top:-16px;
+            margin-left:-16px;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="submit" id="test" />
+<script src="../../framework/jquery-1.9.1.js"></script>
+<script>
+    $(function(){
+        function loadingMask(opts) {
+            opts.type = opts.type || 'show';
+            var maskWidth,
+                maskHeight,
+                maskOffset,
+                ajaxLoadingBox = $("#ajaxLoadingBox");
+            if (!$(opts.maskObj)[0]) {
+                opts.maskObj = $(window);
+                maskWidth = '100%';
+                maskHeight = $(window).height();
+                maskOffset = { 'left': 0, 'top': 0 };
+            } else {
+                maskWidth = opts.maskObj.outerWidth();
+                maskHeight = opts.maskObj.outerHeight();
+                maskOffset = opts.maskObj.offset();
+            }
+            if (opts.type == 'show') {
+                if (!ajaxLoadingBox[0]) {
+                    ajaxLoadingBox = $('<div id="ajaxLoadingBox"><div class="overLay"></div><i class="loadingIcon"></i></div>').appendTo($('body'));
+                } else {
+                    ajaxLoadingBox.show();
+                }
+                ajaxLoadingBox.css({
+                    'height': maskHeight, 'width': maskWidth, 'left': maskOffset.left, 'top': maskOffset.top
+                });
+            } else {
+                ajaxLoadingBox[0] && ajaxLoadingBox.hide();
+            }
+        }
+
+        loadingMask({type:'show'});
+
+        setTimeout(function(){
+            loadingMask({type:'hide'});
+        },2000);
+
+        setTimeout(function(){
+            loadingMask({type:'show',maskObj:$('#test')});
+        },3000);
+        setTimeout(function(){
+            loadingMask({type:'hide'});
+        },5000);
+
+    });
+</script>
+</body>
+</html>

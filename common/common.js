@@ -88,3 +88,20 @@ function magicTime(localDate, serviceDate) {  // localDate = "2014/01/12 12:30"
         }
     }
 }
+//获取字节数
+function getCharCount(str) {
+    str = $.trim(str);
+    var byteLength = function (b) {
+        var a;
+        if (typeof b == "undefined") {
+            return 0;
+        }
+        a = b.match(/[^\x00-\x80]/g);
+        return (b.length + (!a ? 0 : a.length))
+    };
+    if (str.length > 0) {
+        return Math.ceil(byteLength(str) / 2);
+    } else {
+        return 0
+    }
+}
