@@ -47,6 +47,40 @@
             bottom:-9px;
             content:' ';
         }
+
+		.leftArrow,.leftArrow:after {
+            position:absolute;
+            width:0;
+            height:0;
+            border-style:solid;
+            border-width:10px;
+            border-color:transparent #e5e5e5 transparent transparent;
+            left: -20px;
+            top:12px;
+        }
+        .leftArrow:after {
+            border-right-color:#fafafa;
+            left: -8px;
+			top: -10px;
+            content:' ';
+        }
+
+		.rightArrow,.rightArrow:after {
+            position:absolute;
+            width:0;
+            height:0;
+            border-style:solid;
+            border-width:10px;
+            border-color:transparent transparent transparent #e5e5e5;
+            right: -20px;
+            top:12px;
+        }
+        .rightArrow:after {
+            border-left-color:#fafafa;
+            right: -8px;
+			top: -10px;
+            content:' ';
+        }
     </style>
 </head>
 <body>
@@ -54,6 +88,8 @@
      arrow test
     <i class="topArrow"></i>
 	<i class="bottomArrow"></i>
+	<i class="leftArrow"></i>
+	<i class="rightArrow"></i>
 </div>
 </body>
 </html>
