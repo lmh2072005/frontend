@@ -1,9 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/component/userComponent/rating.html" line="33" mnemonic="2" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ee852450-8bb9-4ebb-a971-fb77e94efe4b" name="Default" comment="" />
     <ignored path="frontend.iws" />
     <ignored path=".idea/workspace.xml" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,28 +27,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="at.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/component/at/at.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="13" column="9" selection-start="297" selection-end="297" vertical-scroll-proportion="-6.8965516" vertical-offset="60" max-vertical-offset="800">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="childCookie.html" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/common/cookie/childCookie.html">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="2.0689654" vertical-offset="60" max-vertical-offset="1280">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="jquery.atSelect.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="jquery.atSelect.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/component/at/jquery.atSelect.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="400" column="49" selection-start="16442" selection-end="16442" vertical-scroll-proportion="-53.68" vertical-offset="6658" max-vertical-offset="13960">
+            <state vertical-scroll-proportion="0.0" vertical-offset="11600" max-vertical-offset="19923">
+              <caret line="400" column="49" selection-start-line="400" selection-start-column="49" selection-end-line="400" selection-end-column="49" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
                 <marker date="1423131499470" expanded="true" signature="5887:5908" placeholder="..." />
@@ -56,10 +43,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="jquery.autoSelect.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="jquery.autoSelect.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/component/autoSelect/jquery.autoSelect.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="648" column="38" selection-start="25476" selection-end="25476" vertical-scroll-proportion="-12.24" vertical-offset="12654" max-vertical-offset="13320">
+            <state vertical-scroll-proportion="0.0" vertical-offset="18792" max-vertical-offset="19169">
+              <caret line="648" column="38" selection-start-line="648" selection-start-column="38" selection-end-line="648" selection-end-column="38" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
               </folding>
@@ -67,73 +55,81 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="autoSelect.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/component/autoSelect/autoSelect.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="104" column="68" selection-start="2050" selection-end="2114" vertical-scroll-proportion="-16.32" vertical-offset="1672" max-vertical-offset="3620">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="autoSelect.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="autoSelect.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/component/autoSelect/autoSelect.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="21" column="40" selection-start="546" selection-end="546" vertical-scroll-proportion="-0.0" vertical-offset="420" max-vertical-offset="1600">
+            <state vertical-scroll-proportion="0.0" vertical-offset="609" max-vertical-offset="2320">
+              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="common.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/common.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="16" column="22" selection-start="601" selection-end="603" vertical-scroll-proportion="51.76" vertical-offset="1614" max-vertical-offset="2280">
+            <state vertical-scroll-proportion="0.0" vertical-offset="464" max-vertical-offset="3248">
+              <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="message.js" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="message.js" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/common/message.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="18" selection-start="9" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1280">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1856">
+              <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="loading.html" pinned="false" current="true" current-in-tab="true">
+      <file leaf-file-name="loading.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/component/userComponent/loading.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="73" column="9" selection-start="2338" selection-end="2338" vertical-scroll-proportion="1.4229608" vertical-offset="538" max-vertical-offset="1980">
+            <state vertical-scroll-proportion="-4.361111" vertical-offset="1960" max-vertical-offset="2842">
+              <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="textLimit.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="rating.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/component/userComponent/rating.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="-9.194445" vertical-offset="336" max-vertical-offset="1566">
+              <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name=".gitignore" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/.gitignore">
+          <provider selected="true" editor-type-id="text-editor">
+            <state vertical-scroll-proportion="0.032474805" vertical-offset="0" max-vertical-offset="893">
+              <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="textLimit.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/component/userComponent/textLimit.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="70" column="20" selection-start="2340" selection-end="2340" vertical-scroll-proportion="-25.51724" vertical-offset="660" max-vertical-offset="1780">
+            <state vertical-scroll-proportion="-16.444445" vertical-offset="887" max-vertical-offset="2552">
+              <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="55" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="arrow.html" pinned="false" current="false" current-in-tab="false">
+      <file leaf-file-name="arrow.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/component/userComponent/arrow.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="-0.0" vertical-offset="0" max-vertical-offset="920">
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="atSelect.css" pinned="false" current="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/component/at/atSelect.css">
-          <provider selected="true" editor-type-id="text-editor">
-            <state line="54" column="20" selection-start="934" selection-end="934" vertical-scroll-proportion="-17.96" vertical-offset="631" max-vertical-offset="2480">
+            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2900">
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -155,28 +151,21 @@
     </option>
   </component>
   <component name="IdeDocumentHistory">
-    <option name="changedFiles">
+    <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/component/tab/tabs.css" />
-        <option value="$PROJECT_DIR$/component/tab/tab.html" />
-        <option value="$PROJECT_DIR$/component/autoSelect/autoSelect.js" />
-        <option value="$PROJECT_DIR$/component/autoSelect/autoSelect.css" />
-        <option value="$PROJECT_DIR$/component/at/at.html" />
-        <option value="$PROJECT_DIR$/component/at/atSelect.css" />
-        <option value="$PROJECT_DIR$/component/autoSelect/autoSelect.html" />
-        <option value="$PROJECT_DIR$/component/autoSelect/jquery.autoSelect.js" />
-        <option value="$PROJECT_DIR$/common/common.js" />
-        <option value="$PROJECT_DIR$/component/userComponent/loading.html" />
-        <option value="$PROJECT_DIR$/component/userComponent/textLimit.html" />
-        <option value="$PROJECT_DIR$/component/at/jquery.atSelect.js" />
+        <option value="$PROJECT_DIR$/component/userComponent/rating.html" />
+        <option value="$PROJECT_DIR$/.gitignore" />
       </list>
     </option>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
   </component>
   <component name="ProjectFrameBounds">
     <option name="x" value="-8" />
     <option name="y" value="-8" />
-    <option name="width" value="1456" />
-    <option name="height" value="876" />
+    <option name="width" value="1936" />
+    <option name="height" value="1056" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="false">
     <OptionsSetting value="true" id="Add" />
@@ -192,7 +181,7 @@
     <option name="STATE" value="0" />
   </component>
   <component name="ProjectView">
-    <navigator currentView="ProjectPane" proportions="" version="1" splitterProportion="0.5">
+    <navigator currentView="ProjectPane" proportions="" version="1">
       <flattenPackages />
       <showMembers />
       <showModules />
@@ -293,9 +282,10 @@
   </component>
   <component name="PropertiesComponent">
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../../javascript-component" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="FullScreen" value="false" />
     <property name="DefaultHtmlFileTemplate" value="Html5" />
+    <property name="HbShouldOpenHtmlAsHb" value="" />
   </component>
   <component name="ReadonlyStatusHandler">
     <option name="SHOW_DIALOG" value="false" />
@@ -308,40 +298,36 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="name" value="Dart" />
-      <option name="saveOutputToFile" value="false" />
-      <option name="showConsoleOnStdErr" value="false" />
-      <option name="showConsoleOnStdOut" value="false" />
-      <method />
-    </configuration>
     <configuration default="true" type="DartUnitRunConfigurationType" factoryName="DartUnit">
-      <option name="VMOptions" />
-      <option name="arguments" />
-      <option name="filePath" />
-      <option name="scope" value="ALL" />
-      <option name="testName" />
       <method />
     </configuration>
-    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" singleton="true" config-file="">
-      <envs />
+    <configuration default="true" type="DartCommandLineRunConfigurationType" factoryName="Dart Command Line Application">
       <method />
     </configuration>
     <configuration default="true" type="JSTestDriver:ConfigurationType" factoryName="JsTestDriver">
       <setting name="configLocationType" value="CONFIG_FILE" />
       <setting name="settingsFile" value="" />
       <setting name="serverType" value="INTERNAL" />
-      <setting name="preferredDebugBrowser" value="CHROME" />
+      <setting name="preferredDebugBrowser" value="Chrome" />
       <method />
     </configuration>
-    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug" singleton="true">
+    <configuration default="true" type="JavaScriptTestRunnerKarma" factoryName="Karma" config-file="">
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
     <configuration default="true" type="NodeJSConfigurationType" factoryName="Node.js" working-dir="">
-      <browser start="false" url="" with-js-debugger="false" />
+      <method />
+    </configuration>
+    <configuration default="true" type="cucumber.js" factoryName="Cucumber.js">
+      <option name="cucumberJsArguments" value="" />
+      <option name="executablePath" />
+      <option name="filePath" />
+      <method />
+    </configuration>
+    <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <method />
     </configuration>
     <list size="0" />
@@ -351,32 +337,42 @@
     <task active="true" id="Default" summary="Default task">
       <changelist id="ee852450-8bb9-4ebb-a971-fb77e94efe4b" name="Default" comment="" />
       <created>1419316202574</created>
+      <option name="number" value="Default" />
       <updated>1419316202574</updated>
     </task>
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
-    <editor active="false" />
+    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <editor active="true" />
     <layout>
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24930556" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.24895833" sideWeight="0.49947202" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.24895833" sideWeight="0.500528" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
     </layout>
+  </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
   </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
@@ -388,85 +384,13 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager />
+    <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/component/at/atSelect.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="54" column="20" selection-start="934" selection-end="934" vertical-scroll-proportion="-17.96" vertical-offset="631" max-vertical-offset="2480">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component/autoSelect/autoSelect.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="104" column="68" selection-start="2050" selection-end="2114" vertical-scroll-proportion="-16.32" vertical-offset="1672" max-vertical-offset="3620">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/cookie/jquery.cookie.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2160">
-          <folding>
-            <element signature="n#!!doc" expanded="false" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component/autoSelect/autoSelect.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="21" column="40" selection-start="546" selection-end="546" vertical-scroll-proportion="-0.0" vertical-offset="420" max-vertical-offset="1600">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/cookie/childCookie.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="2.0689654" vertical-offset="60" max-vertical-offset="1280">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component/userComponent/arrow.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="0" selection-start="0" selection-end="0" vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="920">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component/at/at.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="13" column="9" selection-start="297" selection-end="297" vertical-scroll-proportion="-6.8965516" vertical-offset="60" max-vertical-offset="800">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/component/autoSelect/jquery.autoSelect.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="648" column="38" selection-start="25476" selection-end="25476" vertical-scroll-proportion="-12.24" vertical-offset="12654" max-vertical-offset="13320">
-          <folding>
-            <element signature="n#!!doc" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/common.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="16" column="22" selection-start="601" selection-end="603" vertical-scroll-proportion="51.76" vertical-offset="1614" max-vertical-offset="2280">
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/common/message.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state line="0" column="18" selection-start="9" selection-end="18" vertical-scroll-proportion="0.0" vertical-offset="589" max-vertical-offset="1280">
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/component/at/jquery.atSelect.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="400" column="49" selection-start="16442" selection-end="16442" vertical-scroll-proportion="-53.68" vertical-offset="6658" max-vertical-offset="13960">
+        <state vertical-scroll-proportion="0.0" vertical-offset="11600" max-vertical-offset="19923">
+          <caret line="400" column="49" selection-start-line="400" selection-start-column="49" selection-end-line="400" selection-end-column="49" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
             <marker date="1423131499470" expanded="true" signature="5887:5908" placeholder="..." />
@@ -477,20 +401,204 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/component/userComponent/textLimit.html">
+    <entry file="file://$PROJECT_DIR$/component/autoSelect/jquery.autoSelect.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="70" column="20" selection-start="2340" selection-end="2340" vertical-scroll-proportion="-25.51724" vertical-offset="660" max-vertical-offset="1780">
+        <state vertical-scroll-proportion="0.0" vertical-offset="18792" max-vertical-offset="19169">
+          <caret line="648" column="38" selection-start-line="648" selection-start-column="38" selection-end-line="648" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component/autoSelect/autoSelect.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3016" max-vertical-offset="5249">
+          <caret line="104" column="68" selection-start-line="104" selection-start-column="68" selection-end-line="104" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component/autoSelect/autoSelect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="609" max-vertical-offset="2320">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="464" max-vertical-offset="3248">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1856">
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/component/userComponent/loading.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state line="73" column="9" selection-start="2338" selection-end="2338" vertical-scroll-proportion="1.4229608" vertical-offset="538" max-vertical-offset="1980">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2842">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component/userComponent/textLimit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="2030" max-vertical-offset="2552">
+          <caret line="70" column="20" selection-start-line="70" selection-start-column="20" selection-end-line="70" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component/userComponent/arrow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2900">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component/at/atSelect.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1566" max-vertical-offset="3596">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component/at/atSelect.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1566" max-vertical-offset="3596">
+          <caret line="54" column="20" selection-start-line="54" selection-start-column="20" selection-end-line="54" selection-end-column="20" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component/autoSelect/autoSelect.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="3016" max-vertical-offset="5249">
+          <caret line="104" column="68" selection-start-line="104" selection-start-column="68" selection-end-line="104" selection-end-column="68" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/cookie/jquery.cookie.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="2160">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component/autoSelect/autoSelect.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="609" max-vertical-offset="2320">
+          <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/cookie/childCookie.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="2.0689654" vertical-offset="60" max-vertical-offset="1280">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component/userComponent/arrow.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="920">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component/at/at.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-6.8965516" vertical-offset="60" max-vertical-offset="800">
+          <caret line="13" column="9" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component/autoSelect/jquery.autoSelect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="18792" max-vertical-offset="19169">
+          <caret line="648" column="38" selection-start-line="648" selection-start-column="38" selection-end-line="648" selection-end-column="38" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="464" max-vertical-offset="3248">
+          <caret line="16" column="22" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/common/message.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1856">
+          <caret line="0" column="18" selection-start-line="0" selection-start-column="18" selection-end-line="0" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component/at/jquery.atSelect.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="11600" max-vertical-offset="19923">
+          <caret line="400" column="49" selection-start-line="400" selection-start-column="49" selection-end-line="400" selection-end-column="49" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <marker date="1423131499470" expanded="true" signature="5887:5908" placeholder="..." />
+            <marker date="1423131499470" expanded="true" signature="6209:6245" placeholder="..." />
+            <marker date="1423131499470" expanded="true" signature="6329:6365" placeholder="..." />
+            <marker date="1423131499470" expanded="true" signature="6412:6448" placeholder="..." />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component/userComponent/loading.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-4.361111" vertical-offset="1960" max-vertical-offset="2842">
+          <caret line="73" column="9" selection-start-line="73" selection-start-column="9" selection-end-line="73" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component/userComponent/textLimit.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-16.444445" vertical-offset="887" max-vertical-offset="2552">
+          <caret line="51" column="0" selection-start-line="51" selection-start-column="0" selection-end-line="51" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/component/userComponent/rating.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="-9.194445" vertical-offset="336" max-vertical-offset="1566">
+          <caret line="23" column="31" selection-start-line="23" selection-start-column="31" selection-end-line="23" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.032474805" vertical-offset="0" max-vertical-offset="893">
+          <caret line="1" column="13" selection-start-line="1" selection-start-column="13" selection-end-line="1" selection-end-column="13" />
           <folding />
         </state>
       </provider>
     </entry>
   </component>
 </project>
-

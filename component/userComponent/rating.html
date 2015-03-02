@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title>rating</title>
+    <style type="text/css">
+        body{
+            margin:300px;
+        }
+        a{
+            font-size: 22px;
+        }
+        /*rating*/
+        .rating {
+            font-size:16px;
+        }
+        .rating .fa-star {
+            float:left;
+            padding-right:3px;
+        }
+        .rating .fa-star,.rating .fa-star:hover{
+            text-decoration:none;
+        }
+        .rating:hover a:hover ~a,.rating .selected ~a {
+            color:#999;
+        }
+        .rating .fa-star, .rating .selected,.rating .fa-star:hover,.rating:hover a {
+            color:#f39800;
+        }
+    </style>
+</head>
+<body>
+<div class="rating  clearfix">
+    <a href="javascript:;" class="fa fa-star">@</a>
+    <a href="javascript:;" class="fa fa-star">@</a>
+    <a href="javascript:;" class="fa fa-star selected">@</a>
+    <a href="javascript:;" class="fa fa-star">@</a>
+    <a href="javascript:;" class="fa fa-star">@</a>
+</div>
+<script src="../../framework/jquery-1.9.1.js"></script>
+<script>
+    $(function () {
+        $('.rating').on('click', 'a', function () {
+            $(this).addClass('selected').siblings().removeClass('selected');
+        })
+    })
+</script>
+</body>
+</html>
