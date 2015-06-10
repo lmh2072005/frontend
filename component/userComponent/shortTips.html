@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <style type="text/css">
+        #short-tips-wrap{
+            position:fixed;
+            padding:12px 24px;
+            border-radius:5px;
+            display:inline-block;
+            color:#fff;
+        }
+        .label-success{
+            background: #468847;
+        }
+        .label-warning{
+            background: #f89406;
+        }
+        .label-important{
+            background: #f74d4d;
+        }
+        .label-info{
+            background: #3a87ad;
+        }
+        .label-inverse{
+            background: #333;
+        }
+    </style>
+</head>
+<body>
+<input type="button" value="test" id="btn" />
+<script src="../../framework/jquery-1.9.1.js"></script>
+<script>
+    $(function(){
+        var shortTips = function(options){
+            var opts = {
+                msg:'',
+                type:'success' //success、warning、important、info、inverse
+            };
+            opts = $.extend(opts, options);
+            var shortTipsWrap = $('#short-tips-wrap'),
+                    typeClass = 'label label-' + opts.type;
+            if(!shortTipsWrap[0]){
+                shortTipsWrap = $('<div id="short-tips-wrap" class="' + typeClass + '">' + opts.msg + '</div>').appendTo($('body'));
+            }else{
+                shortTipsWrap.attr('class',typeClass).html(opts.msg);
+            }
+            shortTipsWrap.css({
+                left:($(window).width()-shortTipsWrap.outerWidth())/2,
+                top :($(window).height()-shortTipsWrap.outerHeight())/2,
+                display:'inline-block'
+            });
+            clearTimeout(shortTips.timer);
+            shortTips.timer = setTimeout(function(){
+                shortTipsWrap.fadeOut(1000);
+            },1000);
+        };
+
+        shortTips({msg:'test'});
+        $('#btn').on('click', function(){
+            var randomStr = Math.random().toString(32);
+            shortTips({msg:randomStr,type:'warning'});
+        })
+    })
+</script>
+</body>
+</html>
